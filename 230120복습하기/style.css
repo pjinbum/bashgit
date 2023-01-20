@@ -130,7 +130,7 @@ aside{
 
 .sub-list{
   display: none;
-  background-color: blueviolet;
+  background-color: rgba(138, 43, 226, .5);
   border-radius: 10%;
 }
 .sub-list>li{
