@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 478px;
+  margin: 0 auto;
+
+}
+
+.tab-box-list{
+  display: flex;
+  margin-top: 25px;
+
+}
+
+.tab-box-item{
+  width: 160px;
+  height: 40px;
+  border: 1px solid #06c;
+  color: #06c;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  margin-right: -1px;
+  /* 보더겹치는 부분을 합쳐주는 것이다 -1px로 */
+  transition: background-color 400ms ease-in-out;
+}
+
+.tab-box-item:active {
+  background-color: #06c;
+  color: #fff;
+}
+
+.tab-content-wrapper{
+  margin-top: -1px;
+  /* 보더값만큼 끌어올려줘서 겹치는 선 제거 */
+  padding: 10px;
+  border: 1px solid blue;
+}
+/* id 선행 */
+#web{
+  display: block;
+}
+
+.tab-box-content{
+  display: none;
+}
+
+/*  */
+
+.tab-box-content{
+  margin-top: 10px;
+}
