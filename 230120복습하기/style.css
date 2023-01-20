@@ -87,6 +87,28 @@ header{
  
 }
 
+footer{
+  background-color: black;
+  height: 200px;
+}
+
+footer>ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer>ul{
+  height: 100%;
+  align-items: center;
+}
+
+footer>ul>li>a{
+  color: #fff;
+  margin: 0 20px;
+
+}
+
 
 
 
@@ -158,3 +180,4 @@ aside{
   height: 200px;
   border-radius: 20%;
 }
+
