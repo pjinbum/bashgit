@@ -53,3 +53,8 @@ btn9.addEventListener('mouseover' , function(){
 })
 
 
+$('.sid>li').hover(function(){
+  $(this).find('ul').stop().slideDown(500)
+}, function(){
+  $(this).find('ul').stop().slideUp(500)
+})

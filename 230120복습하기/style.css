@@ -112,6 +112,7 @@ aside{
 .sid>li{
   
   margin: 0 40px;
+  transition: all 400ms ease-in-out;
   
 }
 
@@ -119,11 +120,27 @@ aside{
   color: #fff;
   font-size: 20px;
   font-weight: 700;
+
  
+}
+
+.sid>li>a:hover{
+  background-color: #000;
 }
 
 .sub-list{
   display: none;
+  background-color: blueviolet;
+  border-radius: 10%;
+}
+.sub-list>li{
+  
+  margin-top: 20px;
+  transition: all 400ms ease-in-out;
+}
+
+.sub-list>li>a{
+  color: #fff;
 }
 
 .modal{
